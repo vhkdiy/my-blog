@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <MyHeader></MyHeader>
+    <MyContent></MyContent>
   </div>
 </template>
 
 <script>
 import MyHeader from './components/MyHeader';
+import MyContent from './components/MyContent';
 
 export default {
   name: 'app',
   components: {
-    MyHeader
+    MyHeader,
+    MyContent
   }
 }
 </script>
